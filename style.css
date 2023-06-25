@@ -7,6 +7,7 @@
     text-align: right;
     font-size: 20px;
     text-decoration: none;
+    
 }
 
 .navbar-item {
@@ -27,6 +28,7 @@
 
 #img {
     display: flex;
-    width: 100px;
+    width: 300px;
     height: 100px;
 }
+
