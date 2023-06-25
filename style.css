@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+.nav {
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar-item {
+    text-decoration: none;
+}
+
+.nav {
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
+
+.navbar-item {
+    color: white;
+    padding: 12px;
+    height: 100%;
+}
+
+#img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
