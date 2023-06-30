@@ -48,3 +48,17 @@ body {
     background-color: white;
     margin-top: 20%;
 }
+
+.news {
+    text-decoration: none;
+}
+
+a.news:hover {
+    text-decoration: underline;
+}
+
+
+#two {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
