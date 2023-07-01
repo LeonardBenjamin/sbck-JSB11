@@ -3,7 +3,7 @@
 }
 
 .nav {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     text-align: right;
     font-size: 25px;
     text-decoration: none;
@@ -37,7 +37,7 @@ a.navbar-item:hover {
 }
 
 body {
-    background-image: url("https://giabaogroup.vn/wp-content/uploads/2020/08/bao-tang-ho-chi-minh-bong-sen-vang-giua-long-thu-do-ha-noi-1.jpg");
+    background-image: url("https://toquoc.mediacdn.vn/Uploaded/minhkhanh/2017_07_27/BIN_6105_DVJJ.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -61,4 +61,16 @@ a.news:hover {
 #two {
     display: flex;
     flex-wrap: wrap-reverse;
+}
+
+.footer {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: rgb(173, 30, 50);
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.icon {
+    background-image: rgb(173, 30, 50);
 }
