@@ -47,6 +47,8 @@ body {
 .container {
     background-color: white;
     margin-top: 20%;
+    padding-bottom: 5%;
+    margin-bottom: 20%;
 }
 
 .news {
@@ -61,33 +63,16 @@ a.news:hover {
 #two {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .footer {
     font-family: 'Rubik', sans-serif;
     color: white;
     background-color: rgb(173, 30, 50);
-    padding: 10px;
-    margin-top: 20%;
+    padding: 10%;
 }
 
-.icon {
-    background-image: rgb(173, 30, 50);
-    text-decoration: none;
+.social-media{
+
 }
 
-#icon-media-social {
-    width: 5px;
-    height: 5px;
-}
-
-#three {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-a.social-media:hover {
-    mask-image: url(https://cdn-icons-png.flaticon.com/256/20/20673.png);
-}
