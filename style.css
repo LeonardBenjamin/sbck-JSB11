@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-.navbar-item {
+.navbar-item, .nav {
     text-decoration: none;
 }
 
@@ -20,6 +20,7 @@
 }
 
 .navbar-item {
+    align-items: center;
     color: white;
     padding: 10px;
     height: 100%;
@@ -40,7 +41,7 @@ body {
     background-image: url("https://toquoc.mediacdn.vn/Uploaded/minhkhanh/2017_07_27/BIN_6105_DVJJ.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 180vh;
     width: 100%;
 }
 
@@ -70,9 +71,5 @@ a.news:hover {
     background-color: rgb(173, 30, 50);
     padding: 10%;
     margin-top: 20%;
-}
-
-.social-media{
-
 }
 
