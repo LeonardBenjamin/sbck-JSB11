@@ -1,75 +1,80 @@
-* {
-    margin: 0px;
-}
-
-.nav {
-    font-family: 'Oswald';
-    text-align: right;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-.navbar-item, .nav {
-    text-decoration: none;
-}
-
-.nav {
-    color: white;
-    background-color: rgb(173, 30, 50);
-    padding: 10px;
-}
-
-.navbar-item {
-    align-items: center;
-    color: white;
-    padding: 10px;
-    height: 100%;
-}
-
-#img {
-    display: flex;
-    padding: auto;
-    width: 210px;
-    height: 150px;
-}
-
-a.navbar-item:hover {
-    text-decoration: underline;
-}
-
 body {
-    background-image: url("https://toquoc.mediacdn.vn/Uploaded/minhkhanh/2017_07_27/BIN_6105_DVJJ.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 180vh;
-    width: 100%;
-}
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
 
-.container {
-    background-color: white;
-    margin-top: 20%;
-    padding-bottom: 5%;
-}
-
-.news {
-    text-decoration: none;
-}
-
-a.news:hover {
-    text-decoration: underline;
-}
-
-
-#two {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer {
-    font-family: 'Rubik', sans-serif;
-    color: white;
-    background-color: rgb(173, 30, 50);
-    padding: 10%;
-    margin-top: 20%;
-}
-
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
