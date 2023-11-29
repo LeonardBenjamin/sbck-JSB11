@@ -13,3 +13,4 @@ alert_signup.addEventListener("click", () => {
     signup_box.classList.add("hidden");
 });
 
+location="index2.hmtl"
